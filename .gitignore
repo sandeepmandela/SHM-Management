@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 
-/build
+build/
 bin/
 classes/
 out/
