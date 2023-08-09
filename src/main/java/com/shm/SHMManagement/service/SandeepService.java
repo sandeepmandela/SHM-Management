@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 public class SandeepService {
     public String greetingMessage(String name){
         System.out.println("Entered greetingMessage");
-        StringBuilder greeting_builder = new StringBuilder(100);
-        greeting_builder.append(" " + name);
+        StringBuilder greeting_builder = new StringBuilder();
+        greeting_builder.append("Hello " + name);
         return greeting_builder.toString();
     }
 
